@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/all.min.css">
+    <link rel="stylesheet" href="/style/login.css">
+    <title>Login Modal</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="forms">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-field">
+                    <input type="Email" name="myEmail" placeholder="Enter your email-id" required />
+                </div>
+                <div class="input-field">
+                    <input type="password" class="password" id="myInput" placeholder="Enter your password" required />
+
+                </div>
+                <!-- <i class="fa-solid fa-lock icon"></i> -->
+                <!-- <i class="fa-solid fa-eye-slash showHidePw"></i> -->
+                <div class="checkbox">
+                    <input type="checkbox" id="checkinput" onclick="myFunction()">
+                    <label for="checkinput" class="text">Show Password</label>
+                </div>
+
+                <!-- <div class="checkbox">
+                    <input type="checkbox" id="box">
+                    <label for="box" class="check">Remember me</label>
+                </div> -->
+                <div class="link">
+                    <a href="#" class="text">Forgot password?</a>
+                </div>
+
+                <div class="link">
+                    <button class="button"><a>Login Now</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+<script src="/script/login.js"></script>
+
+</html>

@@ -1,0 +1,50 @@
+body{
+   
+    background-color: #6085ea;
+    font-family: 'Poppins', sans-serif;
+
+}
+.container{
+    margin: 220px 550px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    background-color: antiquewhite;
+    border-radius: 50px;
+    padding: 20px 0px;
+
+}
+
+.input-field input{
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    font-size: 20px;
+    border-radius: 10PX;
+}
+
+.checkbox{
+    margin-right: 55%;
+    padding: 5px;
+    cursor: pointer;
+    color: black;
+}
+
+.link{
+    font-size: 25px;
+    margin: 10px;
+    padding: 3px;
+}
+.link a{
+    font-size: 20px;
+    padding: 5px;
+}
+.link button{
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: palegreen;
+}
+.link button:hover{
+    background-color: green;
+}
